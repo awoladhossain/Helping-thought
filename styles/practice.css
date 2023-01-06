@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 header {
   background-image: url(../images/donation9.jpg);
   background-repeat: no-repeat;
@@ -18,7 +22,7 @@ h1 {
 
 .center {
   position: absolute;
-  margin-left: 450px;
+  margin-left: 430px;
 }
 .btn-all {
   background: #ff5959;
@@ -26,58 +30,206 @@ h1 {
   padding: 10px;
   border: none;
   color: white;
+  margin-top: 25px;
 }
 /*--second-part--*/
-.heading{
-    text-align: center;
-    margin-top: 100px;
+.heading {
+  text-align: center;
+  margin-top: 100px;
 }
-.second-text{
-text-align: center;
+.second-text {
+  text-align: center;
 }
-.donation-amount{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-   
+.donation-amount {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
-ul.donation-amount li{
-    list-style: none;
-    background: rgb(221, 235, 233);
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 20px;
-    color:  #FF5959;
-    font-weight: 700;
+ul.donation-amount li {
+  list-style: none;
+  background: rgb(221, 235, 233);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  color: #ff5959;
+  font-weight: 700;
 }
-.donation-other{
-    text-align: center;
-    margin-top: 60px;
-    color: #B3B3B3; 
+.donation-other {
+  text-align: center;
+  margin-top: 60px;
+  color: #b3b3b3;
 }
-.line{
-    border: 1px solid #DADADA;
-    margin-left: 450px;
-    margin-right: 450px;
+.line {
+  border: 1px solid #dadada;
+  margin-left: 450px;
+  margin-right: 450px;
 }
-.donation-button{ 
-    position: absolute;
-    margin-left: 620px;
-  }
-  .btn-donate{
-    background: #ff5959;
+.donation-button {
+  position: absolute;
+  margin-left: 620px;
+  margin-top: 15px;
+}
+.btn-donate {
+  background: #ff5959;
   border-radius: 5px;
   padding: 10px;
   border: none;
   color: white;
-  }
-  .third-part{
-    margin-top: 110px;
-  }
-  .third-heading{
-    margin-left: 580px;
-  }
-  .third-text{
-    text-align: center;
-    color: #707070;
-  }
+}
+.third-part {
+  margin-top: 110px;
+}
+.third-heading {
+  margin-left: 580px;
+}
+.third-text {
+  text-align: center;
+  color: #707070;
+}
+.food-img {
+  width: 58.13px;
+  height: 49.77px;
+}
+.fo-sh-ed {
+  display: flex;
+  margin-left: 120px;
+  margin-right: 80px;
+  margin-top: 60px;
+  gap: 35px;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+.food-heading {
+  font-weight: 600;
+}
+.food-info {
+  background: crimson;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+  color: white;
+}
+.shelter-info {
+  background: crimson;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+  color: white;
+}
+.edu-info {
+  background: crimson;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+  color: white;
+}
+.section {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  margin-left: 120px;
+  margin-right: 70px;
+  gap: 90px;
+}
+.section img {
+  width: 400px;
+  height: 250px;
+}
+.section h2 {
+  margin-top: 25px;
+  padding-left: 25px;
+}
+.section p {
+  margin-top: 25px;
+  padding-left: 25px;
+}
+.forth-div {
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+.forth-button {
+  background: #ff5959;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  color: white;
+}
+.sec-class {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 380px;
+  gap: 200px;
+}
+.sec-class img {
+  width: 400px;
+  height: 250px;
+}
+.forth-divi {
+  position: absolute;
+  margin-right: 120px;
+  margin-top: 10px;
+}
+.forth-butto {
+  background: #ff5959;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  color: white;
+}
+.fifth-heading {
+  margin-top: 100px;
+  text-align: center;
+}
+.fifth-text {
+  text-align: center;
+  color: #707070;
+  font-weight: 400;
+}
+.sixth-part {
+  background: #fff4d6;
+  margin-left: 300px;
+  margin-top: 50px;
+  width: 500px;
+  height: 100px;
+  padding-top: 50px;
+  padding-left: 250px;
+  margin-bottom: 50px;
+}
+.sixth-part input {
+  margin-bottom: 24px;
+  border: 0;
+  width: 200px;
+  height: 10px;
+  padding: 18px 30px;
+}
+.sixth-part button {
+  background: #ff5959;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 45px;
+}
+.last {
+  background-color: #0b0d17;
+  height: 100px;
+  margin: 0px;
+}
+.final {
+  text-align: center;
+  color: #ff5959;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+.final-para {
+  text-align: center;
+  color: #ff5959;
+  justify-content: overflow;
+}
